@@ -57,7 +57,7 @@ with open(file_to_save, "w") as txt_file:
   election_results = (
     f"\nElection Results\n"
     f"-------------------------\n"
-    f"Total Votes: {total_votes}\n"
+    f"Total Votes: {total_votes: ,}\n"
     f"-------------------------\n"
   )
   print(election_results, end = "")
